@@ -9,7 +9,7 @@ const SocialIcons = () => {
 		<Container>
 			<div className="flex fixed flex-col top-[35%] left-0">
 				<ul>
-					<li className="text-white w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-1px] duration-300 bg-red-600">
+					<li className="text-white w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-1px] duration-300 bg-red-600 rounded-tr-md">
 						<a
 							className="flex justify-between items-center w-full text-white px-5"
 							href="https://drive.google.com/file/d/1xAeBuYsELJaZ9uG7RdptiM-3v0n1spB4/view?usp=sharing"
@@ -41,7 +41,7 @@ const SocialIcons = () => {
 							Dribbble <TbBrandDribbbleFilled size={24} />
 						</a>
 					</li>
-					<li className="text-white w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-1px] duration-300 bg-blue-600">
+					<li className="text-white w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-1px] duration-300 bg-blue-600 rounded-br-md">
 						<a
 							className="flex justify-between items-center w-full text-white px-5"
 							href="https://www.facebook.com/skshariful.islam.18"
