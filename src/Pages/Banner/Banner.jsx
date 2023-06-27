@@ -12,11 +12,15 @@ const Banner = () => {
 	});
 
 	return (
-		<section id="home" className="pt-10 pb-20 grid md:grid-cols-2 justify-between items-center gap-6">
+		<section
+			id="home"
+			className="pt-10 pb-20 grid md:grid-cols-2 justify-between items-center gap-6">
 			<div className="order-2 md:order-1">
 				<div className="flex flex-col gap-3 mt-5 md:mt-0">
-					<h4 className="text-[16px] md:text-lg font-normal font-Roboto">WELCOME TO MY WORLD</h4>
-					<h1 className="text-4xl md:text-6xl font-bold font-Josefin mt-5">
+					<h4 className="text-[16px] md:text-lg font-normal font-Roboto">
+						WELCOME TO MY WORLD
+					</h4>
+					<h1 className="text-4xl md:text-6xl font-bold font-Roboto mt-5">
 						Hi, I'm <span className="text-rose-600">Shariful Islam</span>
 					</h1>
 					<h2 className="text-[26px] md:text-4xl font-bold">
@@ -36,8 +40,16 @@ const Banner = () => {
 					</p>
 				</div>
 			</div>
-			<div className="order-1 md:order-2">
+			{/* <div className="order-1 md:order-2">
 				<img className="mx-auto" src={coverImg} alt="" />
+			</div> */}
+			<div className="w-full lgl:w-1/2 flex justify-center items-center relative order-1 md:order-2">
+				<img
+					className="w-[300px] h-[400px] lg:w-[500px] lg:h-[700px] z-10"
+					src={coverImg}
+					alt="bannerImg"
+				/>
+				<div className="absolute bottom-0 w-[300px] h-[300px] lg:w-[450px] lg:h-[500px] bg-gradient-to-r from-navy to-primary shadow-shadowOne flex justify-center items-center rounded-lg"></div>
 			</div>
 		</section>
 	);

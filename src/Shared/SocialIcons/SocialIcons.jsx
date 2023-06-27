@@ -7,7 +7,7 @@ import Container from "../Container/Container";
 const SocialIcons = () => {
 	return (
 		<Container>
-			<div className="flex fixed flex-col top-[35%] left-0">
+			<div className="flex fixed flex-col top-[35%] left-0 z-20">
 				<ul>
 					<li className="text-white w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-1px] duration-300 bg-red-600 rounded-tr-md">
 						<a

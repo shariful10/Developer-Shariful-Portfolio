@@ -17,6 +17,9 @@ export default {
 			backgroundImage: {
 				bodyBg: "url('./src/assets/bg-texture.png')",
 			},
+			boxShadow: {
+				shadowOne: "10px 10px 19px #1f1f38, -10px -10px 19px #4db5ff3c",
+			},
 		},
 	},
 	plugins: [],
