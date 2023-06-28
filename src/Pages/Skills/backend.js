@@ -8,7 +8,7 @@ export const backendData = [
 	{
 		_id: 2,
 		title: "Express JS",
-		img: 'https://i.ibb.co/MpJ1g48/icons8-express-144.png',
+		img: 'https://i.ibb.co/PGsvSJF/express-js-fococlipping-standard.png',
 		experience: "Basic",
 	},
 	{

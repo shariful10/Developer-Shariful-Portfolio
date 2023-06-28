@@ -10,8 +10,8 @@ const BackEndCard = () => {
 			<div className="grid grid-cols-2 gap-6">
 				{backendData.map(({ _id, img, title, experience }) => (
 					<article key={_id}>
-						<div className="flex">
-							<img className="h-[40px]" src={img} alt="" />
+						<div className="flex justify-center items-center">
+							<img className="h-[50px]" src={img} alt="" />
 							<div className="ml-3">
 								<h4 className="font-Roboto font-medium">{title}</h4>
 								<small className="text-gray-400">{experience}</small>

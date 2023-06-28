@@ -16,18 +16,9 @@ export default {
 			},
 			backgroundImage: {
 				bodyBg: "url('./src/assets/bg-texture.png')",
-			},
-			boxShadow: {
-				shadowOne: "10px 10px 19px #e11d473b, -10px -10px 19px #4db5ff3c",
-			},
-			translate: {
-				5: "5px",
-			},
-			stroke: {
-				green: "#04fc43",
-			},
-			rotate: {
-				270: "270deg",
+				project1: "url(https://i.ibb.co/HgzTxgS/hunting-job.png)",
+				project2: "url(https://i.ibb.co/Y3kkVhV/justice-legalsolutions.png)",
+				project3: "url(https://i.ibb.co/5jwgYdD/sports-gear.png)",
 			},
 		},
 	},
