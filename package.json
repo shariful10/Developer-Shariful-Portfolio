@@ -16,7 +16,6 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.11.2",
-    "react-scroll": "^1.8.9",
     "react-simple-typewriter": "^5.0.1",
     "sort-by": "^1.2.0"
   },

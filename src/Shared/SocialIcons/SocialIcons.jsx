@@ -12,7 +12,7 @@ const SocialIcons = () => {
 					<li className="text-white w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-1px] duration-300 bg-red-600 rounded-tr-md">
 						<a
 							className="flex justify-between items-center w-full text-white px-5"
-							href="https://drive.google.com/file/d/1xAeBuYsELJaZ9uG7RdptiM-3v0n1spB4/view?usp=sharing"
+							href="https://drive.google.com/file/d/1E85gR-M3-x99W5HPIXF08uXTJtxXbA1n/view?usp=sharing"
 							target="_blank">
 							Resume <BsFillPersonLinesFill size={24} />
 						</a>
@@ -33,7 +33,7 @@ const SocialIcons = () => {
 							LinkedIn <BsLinkedin size={24} />
 						</a>
 					</li>
-					<li className="text-white w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-1px] duration-300 bg-[#ea4c89]">
+					<li className="text-white w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-1px] duration-300 bg-rose-600">
 						<a
 							className="flex justify-between items-center w-full text-white px-5"
 							href="https://dribbble.com/shariful102"

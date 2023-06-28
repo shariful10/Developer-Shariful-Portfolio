@@ -12,13 +12,22 @@ export default {
 			fontFamily: {
 				Roboto: ["Roboto", "sans-serif"],
 				LobsterTwo: ["Lobster Two", "cursive"],
-				Josefin: ["Josefin Sans", "sans-serif"],
+				Montserrat: ["Montserrat", "sans-serif"],
 			},
 			backgroundImage: {
 				bodyBg: "url('./src/assets/bg-texture.png')",
 			},
 			boxShadow: {
-				shadowOne: "10px 10px 19px #1f1f38, -10px -10px 19px #4db5ff3c",
+				shadowOne: "10px 10px 19px #e11d473b, -10px -10px 19px #4db5ff3c",
+			},
+			translate: {
+				5: "5px",
+			},
+			stroke: {
+				green: "#04fc43",
+			},
+			rotate: {
+				270: "270deg",
 			},
 		},
 	},

@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import SectionTitle from "../../Shared/SectionTitle/SectionTitle";
 
 const Testimonial = () => {
-    return (
-        <section id='testimonial' className='h-40'>
-            <h2>Testimonial</h2>
-        </section>
-    );
+	return (
+		<section id="testimonial" className="h-40">
+			<SectionTitle heading={"Testimonial"} sizing={'1/6'} />
+		</section>
+	);
 };
 
 export default Testimonial;

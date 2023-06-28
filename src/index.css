@@ -1,14 +1,52 @@
 /* <-- Google Fonts --> */
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Lobster+Two:wght@400;700&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500&display=swap");
 
 /* <-- Tailwind CSS --> */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* <-- Custom Css --> */
 .selector {
 	background: linear-gradient(to right, #2c2c6c, #4db5ff);
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;
+}
+
+/* <-- Circle Progress Bar --> */
+.main-cintainer {
+	/* top: 50%; */
+	/* left: 50%; */
+	display: grid;
+	place-items: center;
+	height: 400px;
+	width: 400px;
+	border-radius: 5px;
+	/* position: absolute; */
+	background-color: white;
+	transform: translate(-50px, -50px);
+	box-shadow: 20px 20px 40px rgba(60, 60, 150, 0.25);
+}
+
+.circular-progressbar{
+	display: grid;
+	place-items: center;
+	position: relative;
+	width: 250px;
+	height: 250px;
+	background-color: orange;
+	border-radius: 50%;
+}
+
+.circular-progressbar::before {
+	content: '';
+	position: absolute;
+	height: 84%;
+	width: 84%;
+	background: white;
+	border-radius: 50%;
+}
+
+.value-container{
+	position: relative;
 }
