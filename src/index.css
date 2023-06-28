@@ -6,6 +6,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.myBtn {
+	@apply bg-gradient-to-r from-rose-600 to-primary  py-3 px-5 rounded-lg font-Roboto font-medium
+}
+
 /* <-- Custom Css --> */
 .selector {
 	background: linear-gradient(to right, #2c2c6c, #4db5ff);

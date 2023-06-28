@@ -20,19 +20,19 @@ const Project3 = () => {
 				<div className="flex items-center gap-4">
 					<Link
 						to="https://sports-gear-client.web.app/"
-						className="bg-gradient-to-r from-rose-600 to-primary  py-3 px-5 rounded-lg font-Roboto font-medium flex items-center gap-2">
+						className="myBtn flex items-center gap-2">
 						<BiWorld className="h-6 w-6" />
 						<span className="hidden md:block">Preview</span>
 					</Link>
 					<Link
 						to="https://github.com/shariful10/Sports-Gear"
-						className="bg-gradient-to-r from-rose-600 to-primary  py-3 px-5 rounded-lg font-Roboto font-medium flex items-center gap-2">
+						className="myBtn flex items-center gap-2">
 						<FaGithub className="h-6 w-6" />
 						<span className="hidden md:block">GitHub</span> Client
 					</Link>
 					<Link
 						to="https://github.com/shariful10/Sports-Gear-Server"
-						className="bg-gradient-to-r from-rose-600 to-primary  py-3 px-5 rounded-lg font-Roboto font-medium flex items-center gap-2">
+						className="myBtn flex items-center gap-2">
 						<FaGithub className="h-6 w-6" />
 						<span className="hidden md:block">GitHub</span> Server
 					</Link>
