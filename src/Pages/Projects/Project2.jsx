@@ -21,7 +21,7 @@ const Project2 = () => {
 						to="https://justice-legalsolutions.netlify.app/"
 						className="myBtn flex items-center gap-2">
 						<BiWorld className="h-6 w-6" />
-						<span className="hidden md:block">Preview</span>
+						<span className="hidden md:block">Live Demo</span>
 					</Link>
 					<Link
 						to="https://github.com/shariful10/Justice-Solution"
