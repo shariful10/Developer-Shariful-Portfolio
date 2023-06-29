@@ -7,25 +7,25 @@ const Project1 = () => {
 	return (
 		<div className="grid md:grid-cols-2 justify-center items-center gap-10 mt-[50px]">
 			<div className="box w-[340px] h-[250px] md:w-[580px] md:h-[400px] bg-black bg-project1 bg-top hover:bg-bottom bg-cover rounded-lg"></div>
-			<div>
-				<h3 className="text-3xl font-Roboto font-semibold">Job Hunting</h3>
+			<div className="">
+				<h3 className="text-3xl font-Roboto font-semibold">Justice Solutions</h3>
 				<p className="my-5 w-full">
-					A job hunting website is an online platform that connects job seekers with
-					employers by providing job listings, resume submission, and various resources to
-					support the job search process. Users can search and filter job listings, create
-					profiles, upload resumes, and receive job alerts. These websites serve as a
-					central hub for finding and applying for job opportunities, as well as accessing
-					career-related resources and tracking application progress.
+					Justice Solutions is a comprehensive website offering a wide range of resources and services related to the field of justice and law. It 
+					provides legal information, professional services, and valuable tools 
+					to individuals, organizations, and professionals in the justice system. 
+					The website serves as a hub for accessing legal knowledge, connecting 
+					with legal experts, and finding solutions to various justice-related 
+					needs.
 				</p>
 				<div className="flex items-center gap-4">
 					<Link
-						to="https://hunting-job.netlify.app/"
+						to="https://justice-legalsolutions.netlify.app/"
 						className="myBtn flex items-center gap-2">
 						<BiWorld className="h-6 w-6" />
 						<span className="hidden md:block">Live Demo</span>
 					</Link>
 					<Link
-						to="https://github.com/shariful10/career-hub"
+						to="https://github.com/shariful10/Justice-Solution"
 						className="myBtn flex items-center gap-2">
 						<FaGithub className="h-6 w-6" />
 						<span className="hidden md:block">GitHub</span>

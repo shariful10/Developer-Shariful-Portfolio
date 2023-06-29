@@ -16,8 +16,8 @@ export default {
 			},
 			backgroundImage: {
 				bodyBg: "url('./src/assets/bg-texture.png')",
-				project1: "url(https://i.ibb.co/HgzTxgS/hunting-job.png)",
-				project2: "url(https://i.ibb.co/Y3kkVhV/justice-legalsolutions.png)",
+				project1: "url(https://i.ibb.co/Y3kkVhV/justice-legalsolutions.png)",
+				project2: "url(https://i.ibb.co/CttmqzT/bistro-boss-restaurant-web-app.png)",
 				project3: "url(https://i.ibb.co/5jwgYdD/sports-gear.png)",
 			},
 		},

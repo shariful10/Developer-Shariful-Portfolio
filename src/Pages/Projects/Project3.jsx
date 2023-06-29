@@ -13,9 +13,7 @@ const Project3 = () => {
 					Sports Gear is a dedicated website for cricket enthusiasts, offering a wide
 					range of cricket equipment, gear, and training resources. With a focus on
 					cricket training, the website provides comprehensive tools and knowledge to
-					enhance players' skills and performance on the field. Whether you're a beginner
-					or an experienced player, Sports Gear is your go-to destination for all your
-					cricket training needs.
+					enhance players' skills and performance on the field. Whether you're a beginner or an experienced player, Sports Gear is your go-to destination for all your cricket training needs.
 				</p>
 				<div className="flex items-center gap-4">
 					<Link
