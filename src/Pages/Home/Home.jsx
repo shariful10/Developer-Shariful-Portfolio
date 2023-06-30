@@ -9,13 +9,11 @@ import Container from "../../Shared/Container/Container";
 const Home = () => {
 	return (
 		<div>
-			<Container>
-				<Banner />
-				<Skills />
-				<Projects />
-				<Testimonial />
-				<Contact />
-			</Container>
+			<Banner />
+			<Skills />
+			<Projects />
+			<Testimonial />
+			<Contact />
 		</div>
 	);
 };

@@ -6,6 +6,7 @@ const Banner = () => {
 	return (
 		<>
 			<section
+				data-aos="zoom-out"
 				id="home"
 				className="grid md:grid-cols-2 justify-between items-center gap-6 mt-[50px]">
 				<LeftBanner />

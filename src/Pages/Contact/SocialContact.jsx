@@ -7,6 +7,8 @@ const SocialContact = () => {
 			{contactData.map(({ _id, name, email, img, msg, link }) => (
 				<article
 					key={_id}
+					data-aos="flip-left"
+					data-aos-easing="ease-out-cubic"
 					className="bg-navy transition duration-300 hover:bg-rose-600 flex items-center gap-6 p-5 rounded-lg py-auto">
 					<img className="h-[80px] w-[80px]" src={img} alt="" />
 					<div className="">

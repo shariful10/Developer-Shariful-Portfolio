@@ -21,7 +21,7 @@ const Navbar = () => {
 						</div>
 						<div
 							onClick={() => setIsOpen(!isOpen)}
-							className="p-4 md:px-4 md:py-2 border-[2px] border-rose-600 flex flex-row items-center gap-3 rounded-full cursor-pointer hover:shadow-md transition md:hidden">
+							className="p-4 md:p-1 border-[2px] border-rose-600 flex flex-row items-center gap-3 rounded-full cursor-pointer hover:shadow-md transition md:hidden">
 							{isOpen ? (
 								<HiOutlineX className="h-6 w-6 text-rose-600" />
 							) : (
