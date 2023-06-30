@@ -1,8 +1,6 @@
 import React from "react";
-// import CoverImage from "./CoverImage";
-// import ImageBg from "./ImageBg";
 import Lottie from "lottie-react";
-import coder from '../../assets/coder.json'
+import coder from '../../assets/banner.json'
 
 const RightBanner = () => {
 	return (

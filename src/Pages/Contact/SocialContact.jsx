@@ -12,7 +12,7 @@ const SocialContact = () => {
 					<div className="">
 						<h4 className="md:text-2xl font-Roboto font-medium">{name}</h4>
 						<h5 className="font-Roboto">{email}</h5>
-						<a className="font-Roboto" href={link} target="_blank">
+						<a className="font-Roboto text-primary" href={link} target="_blank">
 							{msg}
 						</a>
 					</div>

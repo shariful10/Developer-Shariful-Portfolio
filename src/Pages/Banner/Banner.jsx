@@ -7,7 +7,7 @@ const Banner = () => {
 		<>
 			<section
 				id="home"
-				className="grid md:grid-cols-2 justify-between items-center gap-6 mt-[80px] bg-[#00000000]">
+				className="grid md:grid-cols-2 justify-between items-center gap-6 mt-[50px]">
 				<LeftBanner />
 				<RightBanner />
 			</section>
