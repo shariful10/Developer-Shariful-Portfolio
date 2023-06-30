@@ -4,12 +4,17 @@ import RightBanner from "./RightBanner";
 
 const Banner = () => {
 	return (
-		<section
-			id="home"
-			className="grid md:grid-cols-2 justify-between items-center gap-6 mb-[80px]">
-			<LeftBanner />
-			<RightBanner />
-		</section>
+		<>
+			<section
+				id="home"
+				className="grid md:grid-cols-2 justify-between items-center gap-6 mt-[80px] bg-[#00000000]">
+				<LeftBanner />
+				<RightBanner />
+			</section>
+			<p id="skills" className="text-transparent mb-[80px]">
+				hidden
+			</p>
+		</>
 	);
 };
 

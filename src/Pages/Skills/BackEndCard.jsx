@@ -3,7 +3,7 @@ import { backendData } from "./backend";
 
 const BackEndCard = () => {
 	return (
-		<div className="bg-navy py-[2.4rem] px-[14px] md:px-[5rem] rounded-lg">
+		<div className="bg-navy transition duration-300 hover:bg-rose-600 py-[2.4rem] px-[14px] md:px-[5rem] rounded-lg">
 			<h3 className="text-primary font-Roboto text-center mb-8 text-3xl font-medium">
 				Backend Development
 			</h3>

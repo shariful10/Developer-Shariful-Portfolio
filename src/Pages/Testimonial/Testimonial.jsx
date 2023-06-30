@@ -4,10 +4,15 @@ import TestimonialSlider from "./TestimonialSlider";
 
 const Testimonial = () => {
 	return (
-		<section id="testimonial" className="">
-			<SectionTitle heading={"Testimonial"} sizing={'1/6'} />
-			<TestimonialSlider />
-		</section>
+		<>
+			<section id="" className="">
+				<SectionTitle heading={"Testimonial"} sizing={"1/6"} />
+				<TestimonialSlider />
+			</section>
+			<p id="contact" className="text-transparent mb-[80px]">
+				hidden
+			</p>
+		</>
 	);
 };
 
