@@ -5,7 +5,7 @@ import RightBanner from "./RightBanner";
 const Banner = () => {
 	return (
 		<>
-			<div id="home" className="text-transparent mb-[100px]">
+			<div id="home" className="text-transparent">
 				hidden
 			</div>
 			<section
