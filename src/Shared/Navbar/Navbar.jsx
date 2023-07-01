@@ -14,7 +14,7 @@ const Navbar = () => {
 		<>
 			<div className="bg-primary sticky top-0 z-50">
 				<Container>
-					<div className="p-2 flex justify-between items-center">
+					<div className="p-1 flex justify-between items-center">
 						<Logo />
 						<div className="hidden md:block">
 							<NavItem />
