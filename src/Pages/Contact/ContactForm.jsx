@@ -9,7 +9,12 @@ const ContactForm = () => {
 		e.preventDefault();
 
 		emailjs
-			.sendForm("service_exwkr9d", "template_zwo79v9", form.current, "Rv3tHq_N7xr0GGL2x")
+			.sendForm(
+				`${import.meta.env.VITE_SERVICE_ID}`,
+				`${import.meta.env.VITE_TEMPLATE_ID}`,
+				form.current,
+				`${import.meta.env.VITE_PUBLIC_KEY}`
+			)
 			.then(
 				(result) => {
 					form.current.reset();

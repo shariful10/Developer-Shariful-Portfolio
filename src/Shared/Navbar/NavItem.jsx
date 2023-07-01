@@ -7,7 +7,7 @@ const NavItem = () => {
 			<ul className="inline-flex items-center gap-10 text-white">
 				{navLinkData.map(({ _id, title, link }) => (
 					<li
-						className="text-base font-medium font-Roboto tracking-wide cursor-pointer hover:text-rose-600 duration-300"
+						className="text-base font-medium font-Roboto tracking-wide cursor-pointer hover:text-dribble duration-300"
 						key={_id}>
 						<a href={`#${link}`} className="duration-500">
 							{title}

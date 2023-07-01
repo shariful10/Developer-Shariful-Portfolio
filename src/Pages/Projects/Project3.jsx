@@ -7,7 +7,7 @@ const Project3 = () => {
 	return (
 		<div className="grid md:grid-cols-2 justify-center items-center gap-10">
 			<div className="box w-[340px] h-[250px] md:w-[580px] md:h-[400px] bg-black bg-project3 bg-top hover:bg-bottom bg-cover rounded-lg"></div>
-			<div>
+			<div className="text-center">
 				<h3 className="text-3xl font-Roboto font-semibold">Sports Gear</h3>
 				<p className="my-5 w-full">
 					Sports Gear is a dedicated website for cricket enthusiasts, offering a wide

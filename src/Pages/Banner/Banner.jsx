@@ -5,14 +5,16 @@ import RightBanner from "./RightBanner";
 const Banner = () => {
 	return (
 		<>
+			<div id="home" className="text-transparent mb-[100px]">
+				hidden
+			</div>
 			<section
 				data-aos="zoom-out"
-				id="home"
-				className="grid md:grid-cols-2 justify-between items-center gap-6 mt-[50px]">
+				className="grid md:grid-cols-2 justify-between items-center gap-6">
 				<LeftBanner />
 				<RightBanner />
 			</section>
-			<p id="skills" className="text-transparent mb-[80px]">
+			<p id="about" className="text-transparent mb-[50px]">
 				hidden
 			</p>
 		</>

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Project2 = () => {
 	return (
 		<div className="grid md:grid-cols-2 justify-center items-center gap-10 my-[50px]">
-			<div className="order-2 md:order-1">
+			<div className="order-2 md:order-1 text-center md:text-left">
 				<h3 className="text-3xl font-Roboto font-semibold">Bistro Boss Restaurant</h3>
 				<p className="my-5 w-full">
 					Bistro Boss Restaurant's website is a captivating portal to a world of culinary excellence. With its visually stunning design and intuitive layout, the site offers a seamless browsing experience for visitors. Discover the restaurant's commitment to using fresh, locally sourced ingredients and be tempted by their mouthwatering menu. Whether you're 

@@ -7,11 +7,11 @@
 @tailwind utilities;
 
 .myBtn {
-	@apply bg-primary hover:bg-rose-600 py-3 px-5 rounded-lg font-Roboto font-medium duration-300;
+	@apply bg-primary hover:bg-dribble py-3 px-5 rounded-lg font-Roboto font-medium duration-300;
 }
 
 .btnSubmit {
-	@apply bg-primary hover:bg-rose-600 py-3 w-full rounded-lg font-Roboto font-medium duration-300;
+	@apply bg-primary hover:bg-dribble py-3 w-full rounded-lg font-Roboto font-medium duration-300;
 }
 
 /* <-- Custom Css --> */
@@ -26,10 +26,6 @@
 	transition: ease-in-out 4s;
 }
 
-/* .swiper-button-prev{
-	color: #4db5ff !important;
-	font-size: 5px !important;
-} */
 .swiper-button-next::after {
 	padding: 10px;
 	border-radius: 10px;

@@ -7,7 +7,7 @@ const Project1 = () => {
 	return (
 		<div className="grid md:grid-cols-2 justify-center items-center gap-10 mt-[50px]">
 			<div className="box w-[340px] h-[250px] md:w-[580px] md:h-[400px] bg-black bg-project1 bg-top hover:bg-bottom bg-cover rounded-lg"></div>
-			<div className="">
+			<div className="text-center md:text-left">
 				<h3 className="text-3xl font-Roboto font-semibold">Justice Solutions</h3>
 				<p className="my-5 w-full">
 					Justice Solutions is a comprehensive website offering a wide range of resources and services related to the field of justice and law. It 
