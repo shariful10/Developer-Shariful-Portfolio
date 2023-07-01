@@ -1,4 +1,4 @@
-![logo]('/src/assets/logo.gif')
+![logo](https://github.com/shariful10/Developer-Shariful/issues/1#issue-1783783622)
 ### Live Preview: [Developer Shariful](https://developer-shariful.netlify.app/)
 
 ### Features:
