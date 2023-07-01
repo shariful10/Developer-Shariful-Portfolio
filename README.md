@@ -1,3 +1,4 @@
+![logo]('/src/assets/logo.gif)
 ### Live Preview: [Developer Shariful](https://developer-shariful.netlify.app/)
 
 ### Features:
