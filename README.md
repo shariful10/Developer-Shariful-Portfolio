@@ -1,4 +1,4 @@
-![logo](https://github.com/shariful10/Developer-Shariful/assets/98546214/c795fc00-71cc-4e98-af3e-d84110a36057)
+![screenshoot](https://i.ibb.co/mcNY1p6/favicon.png)
 
 ### Live Preview: [Developer Shariful](https://developer-shariful.netlify.app/)
 
