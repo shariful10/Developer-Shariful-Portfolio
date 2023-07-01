@@ -13,7 +13,7 @@
 
 -   aos
 -   swiper
--   emailjs
+-   emailjs/browser
 -   react-dom
 -   react-icons
 -   sweetalert2
